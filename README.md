@@ -1,2 +1,1 @@
-# simple JS apps
-
+# simple JavaScript apps 
