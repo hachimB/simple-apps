@@ -18,18 +18,25 @@ addButton.addEventListener('click', function () {
     
 
     const completedButton = document.createElement("button");
-    completedButton.textContent = "Completed"
+    completedButton.innerHTML = "Completed"
+    completedButton.classList.add("completed");
+    completedButton.addEventListener('click', function () {
+        li.style.textDecoration = "line-through";
+        li.style.color = "green";
+    });
+
     li.appendChild(completedButton);
 
     const deleteButton = document.createElement("button");
-    deleteButton.textContent = "Deleted"
+    deleteButton.classList.add("delete");
+    deleteButton.innerHTML = "Delete"
+    deleteButton.addEventListener('click', function () {
+        li.remove();
+        saveData();
+    });
     li.appendChild(deleteButton);
 
     ul.appendChild(li);
 
     input.value = '';
-
-
-
-    
 });

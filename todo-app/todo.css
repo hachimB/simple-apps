@@ -98,3 +98,18 @@ li {
 
 
 
+.completed {
+    border: green 2px solid;
+    border-radius: 10px;
+    background-color: green;
+    margin-left: 2vw;
+    padding: 5px 10px 5px 10px;
+}
+
+.delete {
+    border: red 2px solid;
+    border-radius: 10px;
+    background-color: red;
+    margin-left: 2vw;
+    padding: 5px 10px 5px 10px;
+}
