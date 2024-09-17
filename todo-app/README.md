@@ -28,4 +28,11 @@ If you are using **VS Code**, you can download the **Live Server** extension to 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/hachimB/simple-apps.git
+    git clone https://github.com/hachimB/simple-apps.git
+
+2. Move into todo-app directory
+    cd todo-app
+
+3. Open the project in your preferred code editor (e.g., VSCode) or directly in your web browser.
+
+4. (Optional) If using VSCode, you can install the Live Server extension and click "Go Live" to launch the app automatically.
