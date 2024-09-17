@@ -17,7 +17,7 @@ body {
     padding: 20px;
     max-width: 900px;
     width: 90%;
-
+    overflow:scroll;
 }
 
 
@@ -82,16 +82,22 @@ h2 {
     margin-top: 4vh;
     margin-left: 13vw;
     display:flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 
 li {
     margin-top: 4vh;
+    max-width: 400px;
     list-style: none;
     border: 1px black solid;
     border-radius: 30px;
     padding: 20px 30px 20px 30px;
+    word-wrap: break-word;  /* This will wrap long words */
+    overflow-wrap: break-word;  /* For better word-breaking behavior */
+    box-sizing: border-box;  /* Ensures padding is included in the element's total width */
+    overflow: hidden;
 }
 
 

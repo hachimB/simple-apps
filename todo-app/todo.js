@@ -32,7 +32,6 @@ addButton.addEventListener('click', function () {
     deleteButton.innerHTML = "Delete"
     deleteButton.addEventListener('click', function () {
         li.remove();
-        saveData();
     });
     li.appendChild(deleteButton);
 
