@@ -21,8 +21,6 @@ A simple yet interactive **Todo List** application built with **HTML**, **CSS**,
 
 To run this project locally, you'll need a web browser that supports HTML, CSS, and JavaScript (like Chrome, Firefox, etc.).
 
-If you are using **VS Code**, you can download the **Live Server** extension to automatically launch the app.
-
 ### Installation
 
 1. Clone the repository:
@@ -30,9 +28,11 @@ If you are using **VS Code**, you can download the **Live Server** extension to 
    ```bash
     git clone https://github.com/hachimB/simple-apps.git
 
-2. Move into todo-app directory
-    cd todo-app
+2. Move into `todo-app` directory
+    ```bash
+   cd simple-apps/todo-app
+   ```
 
 3. Open the project in your preferred code editor (e.g., VSCode) or directly in your web browser.
 
-4. (Optional) If using VSCode, you can install the Live Server extension and click "Go Live" to launch the app automatically.
+4. (Optional) If using **VSCode**, you can install the **Live Server** extension and click "Go Live" to launch the app automatically.
