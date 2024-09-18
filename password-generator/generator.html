@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random password generator</title>
+    <link rel="stylesheet" href="generator.css"/>
+</head>
+<body>
+    <section class="main-section">
+        <h2 id="h2"><strong>Generate a Random Password</strong></h2>
+
+        <form>
+
+            <div class="password-length">
+                <label for="length">Password Length</label>
+                <br />
+                <input type="number" min="4" max="100" id="length" name="length" value="4"/>
+            </div>
+
+            <div class="p-class">
+                <p><strong>Select password properties:</strong></p>
+            </div>
+
+            <div class="lowercase-characters"></div>
+                <input type="checkbox" id="lowercase" name="lowercase" checked/>
+                <label for="lowercase">Lowercase Characters</label>
+            </div>
+
+            <div class="uppercase-characters"></div>
+                <input type="checkbox" id="uppercase" name="uppercase"/>
+                <label for="uppercase">Uppercase Characters</label>
+            </div>
+
+            <div class="numbers-class"></div>
+                <input type="checkbox" id="numbers" name="numbers"/>
+                <label for="numbers">Numbers(0-9)</label>
+            </div>
+
+            <div class="special-characters"></div>
+                <input type="checkbox" id="special" name="special"/>
+                <label for="special">Special Characters</label>
+            </div>
+
+            <div class="password">
+                <p id="password"></p>
+            </div>
+
+            <div class="button-class">
+                <button type="button" id="button">Generate The Password</button>
+            </div>
+
+        </form>
+    </section>
+    <script src="generator.js"></script>
+</body>
+</html>
