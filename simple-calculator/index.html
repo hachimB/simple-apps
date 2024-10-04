@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-class">
+        <div class="input-class">
+            <input id="input" readonly/>
+        </div>
+
+        <div class="buttons-class">
+            <button onclick="toDisplay('+')" type="button" class="opt add">+</button>
+            <button onclick="toDisplay('7')" type="button">7</button>
+            <button onclick="toDisplay('8')" type="button">8</button>
+            <button onclick="toDisplay('9')" type="button">9</button>
+            <button onclick="toDisplay('-')" type="button" class="opt subs">-</button>
+            <button onclick="toDisplay('4')" type="button">4</button>
+            <button onclick="toDisplay('5')" type="button">5</button>
+            <button onclick="toDisplay('6')" type="button">6</button>
+            <button onclick="toDisplay('*')" type="button" class="opt mul">*</button>
+            <button onclick="toDisplay('3')" type="button">3</button>
+            <button onclick="toDisplay('2')" type="button">2</button>
+            <button onclick="toDisplay('1')" type="button">1</button>
+            <button onclick="toDisplay('/')" type="button" class="opt div">/</button>
+            <button onclick="toDisplay('0')" type="button">0</button>
+            <button onclick="toDisplay('.')" type="button">.</button>
+            <button onclick="clearInput()" type="button">C</button>
+            <button onclick="result()" type="button" class="opt equa">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

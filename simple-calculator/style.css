@@ -1,0 +1,64 @@
+
+body {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-class {
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    max-width: 490px;
+}
+
+.buttons-class {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    max-width: 470px;
+    overflow: hidden;
+    margin-top: 1vh;
+}
+
+.input-class input {
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    padding: 40px 10px 40px 10px;
+    max-width: 470px;
+    background-color: black;
+    color: white;
+}
+
+.buttons-class button {
+    border: none;
+    border-radius: 50px;
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgb(42, 41, 41);
+    color: white;
+}
+
+.buttons-class button:hover {
+    background-color: gray;
+}
+.buttons-class button:active {
+    background-color: rgb(83, 78, 71);
+}
+
+.buttons-class .opt {
+    background-color: rgb(226, 150, 10);
+}
+
+.buttons-class .opt:hover {
+    background-color: rgb(250, 194, 89);
+}
+
+.buttons-class .opt:active {
+    background-color: rgb(250, 210, 135);
+}
