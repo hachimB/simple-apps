@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="calculator.css"/>
+</head>
+<body>
+    <div class="main">
+
+        <div class="show-result">
+            <p class="result"></p>
+        </div>
+
+        <div class="operators">
+            <button class="btn" id="add" onclick="onPressedOperators('+')">+</button>
+            <button class="btn" id="subs" onclick="onPressedOperators('-')">-</button>
+            <button class="btn" id="mul" onclick="onPressedOperators('x')">x</button>
+            <button class="btn" id="div" onclick="onPressedOperators('/')">/</button>
+        </div>
+
+
+        <div class="calculator-body">
+
+            <div class="calculator-body1">
+                <div class="nums-row1">
+                    <button class="row" id="7" onclick="onPressedNumber(7)">7</button>
+                    <button class="row" id="8" onclick="onPressedNumber(8)">8</button>
+                    <button class="row" id="9" onclick="onPressedNumber(9)">9</button>
+                </div>
+                
+                <div class="nums-row2">
+                    <button class="row" id="4" onclick="onPressedNumber(4)">4</button>
+                    <button class="row" id="5" onclick="onPressedNumber(5)">5</button>
+                    <button class="row" id="6" onclick="onPressedNumber(6)">6</button>
+                </div>
+    
+                <div class="nums-row3">
+                    <button class="row" id="1" onclick="onPressedNumber(1)">1</button>
+                    <button class="row" id="2" onclick="onPressedNumber(2)">2</button>
+                    <button class="row" id="3" onclick="onPressedNumber(3)">3</button>
+                </div>
+    
+                <div class="nums-row4">
+                    <button class="row" id="0" onclick="onPressedNumber(0)">0</button>
+                    <button class="row" id="." onclick="onPressedNumber('.')">.</button>
+                    <button class="row" id="c" onclick="onPressedOperators('c')">c</button>
+                </div>
+            </div>
+
+            <div class="equality">
+                <button id="equal" onclick="onPressedOperators('=')">=</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

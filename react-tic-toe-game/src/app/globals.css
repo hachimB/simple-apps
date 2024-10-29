@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 20px;
+}
+
+
+.btn {
+  width: 100%;
+  max-width: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+button {
+  border: 1px solid black;
+}
